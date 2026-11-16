@@ -9,5 +9,3 @@ class Settings(BaseSettings):
     dashscope_base_url:str=os.getenv("DASHSCOPE_BASE_URL")
 settings=Settings()
 
-# 设定thread_id，作为会话标识
-config = {"configurable": {"thread_id": "thread_1"}}
