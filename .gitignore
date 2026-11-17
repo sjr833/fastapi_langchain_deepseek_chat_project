@@ -220,3 +220,6 @@ __marimo__/
 .streamlit/secrets.toml
 
 .idea/
+# 忽略数据库文件
+app/rag/chroma_db/
+app/memory/checkpoint.db
